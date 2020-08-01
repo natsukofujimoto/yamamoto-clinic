@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	font-size: 87.5%;/*16px*87.5%=14px*/
+  letter-spacing: 2px;
+}
+
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+  
+
+
+
+body{
+  text-align: center;
+  margin: 0;
+}
+
+
+
+
+@media screen and (max-width:768px) {
+/*icon*/
+  
+  .icon{
+  width: 100px;
+}
+  .icon-l{
+    width: 250px;
+  }
+/*common*/
+
+
+
+.news{
+  background-color: #3BACD6;
+  color: white;
+}
+.bluebg{
+  margin: 75px 0;
+  background-color: #3BACD6;
+  color: white;
+}
+
+.section{
+  padding: 75px 0;
+}
+
+.title{
+  margin: 20px 0;
+}
+h2{
+  margin: 0;
+  font-size: 16px;
+}
+.sub{
+  margin: 0;
+}
+
+  .photo{
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  ul{
+    padding: 0;
+  }
+
+
+
+
+/*button*/
+
+a{
+  color: #3BACD6;
+}
+.viewmore{
+  padding: 30px 20px;
+  margin: 30px 20px 0;
+  border-radius: 10px;
+}
+.more-w{
+  border: medium solid white;
+  padding: 20px 50px;
+}
+.more{
+  border: medium solid #3BACD6;
+  padding: 20px 50px;
+}
+
+  .cliniclist{
+  padding: 40px 20px;
+  margin: 30px 20px 0;
+  border-radius: 10px;
+  border: medium solid #3BACD6;
+  }
+
+
+
+
+/*header*/
+header{
+  padding: 9px 0;
+  background-color: #3BACD6;
+}
+.logo{
+  width: 87px;
+}
+
+  
+  
+  
+/*main visual*/
+  
+.mainvisual{
+  position: relative;
+  }
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+  color: white;
+  font-size: 120%;
+  /*文字の装飾は省略*/
+  }
+
+.mainvisual img {
+  width: 100%;
+  }
+
+  
+  
+/*news*/
+.news>a{
+  color: white;
+}
+
+  .news-contents{
+    margin:0 20px;
+
+  }
+
+
+
+  
+
+/*ourwish*/
+  .ourwish{
+    margin: 0 20px;
+  }
+  .text{
+    text-align: left;
+    line-height: 30px;
+    
+  }
+  
+
+
+
+/*openinghours*/
+.openinghours{
+  margin-bottom: 75px;;
+}
+
+  tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+
+
+/*information*/
+  
+  dt{
+    float: left;
+  }
+  dd{
+    margin: left;
+    margin-left: 0;
+  }
+  
+.information>dl{
+    border-bottom: 2px solid white;
+  margin: 0 20px;
+  
+  }
+
+  .gmap{
+    margin: 30px 0;
+  }
+  
+  
+  /*line*/
+  
+  .line{
+    margin-top: 75px;
+  }
+  .txt{
+    padding: 0 20px;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+
+  
+  
+
+
+
+/*footer*/
+footer{
+  padding: 20px 0;
+  background-color: #3BACD6;
+  margin-top: 150px;
+}
+  
+  footer>p{
+  margin: 0;
+    color: white;
+    font-size: 50%;
+  }
+
+}
